@@ -100,7 +100,7 @@ const Services = () => {
 											{description}
 										</p>
 										<a
-											href="#"
+											href={service.link}
 											className="btn-link text-gradient text-sm"
 											onClick={(e) => {
 												e.preventDefault();

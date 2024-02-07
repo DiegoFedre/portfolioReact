@@ -9,7 +9,7 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 
 const About = () => {
-	const [ref, inView] = useInView({
+	const [ref] = useInView({
 		threshold: 0.5,
 	});
 
